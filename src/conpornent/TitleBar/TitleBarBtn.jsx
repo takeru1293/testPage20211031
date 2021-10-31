@@ -17,7 +17,7 @@ const style = {
 export const TitleBarBtn = (prop) => {
   const { titleName } = prop;
   return (
-    <button class="titlename" style={style}>
+    <button className="titlename" style={style}>
       {titleName}
     </button>
   );

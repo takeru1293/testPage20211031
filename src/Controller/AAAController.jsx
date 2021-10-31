@@ -13,7 +13,7 @@ export const AAAController = (prop) => {
   const inputTop = "70px";
 
   return (
-    <div class="pageStyle">
+    <div className="pageStyle">
       <Title title="AAA画面" />
       <TitleBar />
       <div style={inputAreaStyle}>
