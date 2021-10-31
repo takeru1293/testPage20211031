@@ -6,12 +6,12 @@ import { BBBController } from "./BBB/BBBController";
 export const App = () => {
   const [showAAA, setShowAAA] = useState(true);
   const [showBBB, setShowBBB] = useState(false);
-  const showPageInfoLB = [setShowAAA, setShowBBB];
+  const showPageInfo = { showAAA, setShowAAA, showBBB, setShowBBB };
 
   const renderPage = () => {
     let page;
-    if (showAAA) page = <AAAController pageChange={showPageInfoLB} />;
-    else if (showBBB) page = <BBBController pageChange={showPageInfoLB} />;
+    if (showAAA) page = <AAAController showPageInfo={showPageInfo} />;
+    else if (showBBB) page = <BBBController showPageInfo={showPageInfo} />;
     return page;
   };
 
