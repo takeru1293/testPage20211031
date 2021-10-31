@@ -1,9 +1,9 @@
 import React from "react";
 
 export const InputArea = (prop) => {
-  const { positionTop, positionleft, placeholder } = prop;
+  const { positionTop, positionleft, placeholder, width } = prop;
   const inputStyle = {
-    width: "200px",
+    width: width,
     height: "30px",
     position: "absolute",
     top: positionTop,
