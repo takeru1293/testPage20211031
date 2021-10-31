@@ -13,7 +13,6 @@ export const AAAController = (prop) => {
       <Title title="AAA画面" />
       <div class="pageStyle">
         <NextBtn showPageInfo={showPageInfo} />
-        <ReturnBtn showPageInfo={showPageInfo} />
       </div>
     </>
   );
