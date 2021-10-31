@@ -17,7 +17,7 @@ export const NextBtn = (prop) => {
   // CSS定義--------------------------------------------------------
   const style = {
     position: "absolute",
-    top: "80%",
+    bottom: "5%",
     right: "5%"
   };
 

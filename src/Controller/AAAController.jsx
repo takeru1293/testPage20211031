@@ -8,11 +8,9 @@ export const AAAController = (prop) => {
   const pageStyle = {};
 
   return (
-    <>
+    <div class="pageStyle">
       <Title title="AAA画面" />
-      <div class="pageStyle">
-        <NextBtn showPageInfo={showPageInfo} />
-      </div>
-    </>
+      <NextBtn showPageInfo={showPageInfo} />
+    </div>
   );
 };

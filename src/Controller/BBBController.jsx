@@ -6,7 +6,7 @@ import { Title } from "../conpornent/Title";
 export const BBBController = (prop) => {
   const { showPageInfo } = prop;
   return (
-    <div>
+    <div class="pageStyle">
       <Title title="BBB画面" />
       <NextBtn showPageInfo={showPageInfo} />
       <ReturnBtn showPageInfo={showPageInfo} />
