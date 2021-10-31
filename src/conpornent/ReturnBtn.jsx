@@ -14,10 +14,24 @@ export const ReturnBtn = (prop) => {
       setShowBBB(false);
     }
   };
+  // CSS定義--------------------------------------------------------
+  const style = {
+    position: "absolute",
+    top: "80%",
+    left: "5%"
+  };
+
+  const bntStyle = {
+    width: "150px",
+    height: "50px",
+    fontSize: "20px"
+  };
   // HTML定義--------------------------------------------------------
   return (
-    <div>
-      <button onClick={retrunShowPage}>戻る</button>
+    <div style={style}>
+      <button style={bntStyle} onClick={retrunShowPage}>
+        戻る
+      </button>
     </div>
   );
 };

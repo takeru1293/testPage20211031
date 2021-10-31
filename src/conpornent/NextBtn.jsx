@@ -14,10 +14,25 @@ export const NextBtn = (prop) => {
       setShowBBB(false);
     }
   };
+  // CSS定義--------------------------------------------------------
+  const style = {
+    position: "absolute",
+    top: "80%",
+    right: "5%"
+  };
+
+  const bntStyle = {
+    width: "150px",
+    height: "50px",
+    fontSize: "20px"
+  };
+
   // HTML定義--------------------------------------------------------
   return (
-    <div class="aa">
-      <button onClick={nextShowPage}>つぎへ</button>
+    <div style={style}>
+      <button style={bntStyle} onClick={nextShowPage}>
+        つぎへ
+      </button>
     </div>
   );
 };
