@@ -1,7 +1,7 @@
 import "./styles.css";
 import React, { useState } from "react";
-import { AAAController } from "./AAA/AAAController";
-import { BBBController } from "./BBB/BBBController";
+import { AAAController } from "./Controller/AAAController";
+import { BBBController } from "./Controller/BBBController";
 
 export const App = () => {
   const [showAAA, setShowAAA] = useState(true);

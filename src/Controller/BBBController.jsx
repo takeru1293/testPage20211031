@@ -1,14 +1,15 @@
 import React from "react";
 import { NextBtn } from "../conpornent/NextBtn";
 import { ReturnBtn } from "../conpornent/ReturnBtn";
+import { Title } from "../conpornent/Title";
 
-export const AAAController = (prop) => {
+export const BBBController = (prop) => {
   const { showPageInfo } = prop;
   return (
-    <>
-      <div>AAA画面</div>
+    <div>
+      <Title title="BBB画面" />
       <NextBtn showPageInfo={showPageInfo} />
-      <ReturnBtn />
-    </>
+      <ReturnBtn showPageInfo={showPageInfo} />
+    </div>
   );
 };

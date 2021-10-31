@@ -16,7 +16,7 @@ export const NextBtn = (prop) => {
   };
   // HTML定義--------------------------------------------------------
   return (
-    <div>
+    <div class="aa">
       <button onClick={nextShowPage}>つぎへ</button>
     </div>
   );

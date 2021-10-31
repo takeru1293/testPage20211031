@@ -2,3 +2,25 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 4px 16px;
+  margin: 4px;
+}
+
+button:hover {
+  background-color: #ffbbff;
+}
+
+.pageStyle {
+  height: 400px;
+  width: 100%;
+  background-color: #ffffee;
+}
+.aa {
+  position: relative;
+  top: 90%;
+  left: 5%;
+}
