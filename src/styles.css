@@ -21,3 +21,7 @@ button:hover {
   padding: 10px;
   position: relative;
 }
+
+.titlename {
+  background-color: #333;
+}
